@@ -20,7 +20,7 @@ app.post('/payment-sheet', async (req, res) => {
 
     );
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: 6800,
+      amount: 3000,
       currency: 'INR',
       customer: customer.id,
       payment_method_types : ['card'],
