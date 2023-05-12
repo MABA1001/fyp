@@ -7,7 +7,7 @@ app.use(cors());
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World naa!')
+  res.send('Hello World!')
 })
 
 app.post('/payment-sheet', async (req, res) => {
